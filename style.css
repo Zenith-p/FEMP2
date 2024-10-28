@@ -13,6 +13,7 @@ body{
     align-items: center;
     width: 384px ;
     height: 522px;
+    gap: 16px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 16px;
     padding: 0px 0px 0px 0px;
@@ -30,6 +31,62 @@ body{
     width: 352px;
     border-radius: 8px;
     object-fit: cover;
+}
+.section-box{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    text-align: left;
+    height: 226px;
+    width: 352px;
+}
+.section-box h1,
+.section-box p {
+    margin: 8px; /* Remove margin */
+    padding: 0; /* Optional: Remove padding */
+}
+#h1,
+#p1,
+#p2,
+#p3{
+    font-family: "Figtree";
+    letter-spacing: 0px;
+    line-height: 1.5;
+    margin-left: 0px;
+}
+#h1{
+    font-weight: 800;
+    font-size: 24px;
+    color: hsl(0, 0%, 7%);
+    max-width: 352px; 
+}
+#p2{
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+    max-width: 352px; 
+}
+#p3{
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+    max-width: 352px; 
+
+}
+.p1-box{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    height: 29px;
+    width: 82px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+}
+#p1{
+    font-weight: 800;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+    margin: 5px;
 }
 
 
