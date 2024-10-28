@@ -1,3 +1,36 @@
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: hsl(47, 88%, 63%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+.container{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    width: 384px ;
+    height: 522px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 16px;
+    padding: 0px 0px 0px 0px;
+}
+/* svg isnt treated like normal; imgs create wrap then fitr img inside */
+.svg-container{  
+    width: 352px;
+    height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px 16px 16px 16px;
+}
+#blog-card{
+    height: 200px;
+    width: 352px;
+    border-radius: 8px;
+    object-fit: cover;
+}
 
 
 
