@@ -17,6 +17,8 @@ body{
     background-color: hsl(0, 0%, 100%);
     border-radius: 16px;
     padding: 0px 0px 0px 0px;
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+    border: 0.5px solid rgba(0, 0, 0, 1);
 }
 /* svg isnt treated like normal; imgs create wrap then fitr img inside */
 .svg-container{  
@@ -42,8 +44,8 @@ body{
 }
 .section-box h1,
 .section-box p {
-    margin: 8px; /* Remove margin */
-    padding: 0; /* Optional: Remove padding */
+    margin: 8px; 
+    padding: 0px; 
 }
 #h1,
 #p1,
@@ -51,7 +53,7 @@ body{
 #p3{
     font-family: "Figtree";
     letter-spacing: 0px;
-    line-height: 1.5;
+    line-height: 1.4;
     margin-left: 0px;
 }
 #h1{
@@ -81,6 +83,8 @@ body{
     width: 82px;
     background-color: hsl(47, 88%, 63%);
     border-radius: 4px;
+    margin-top: 8px;
+    margin-bottom: 5px;
 }
 #p1{
     font-weight: 800;
@@ -88,8 +92,25 @@ body{
     color: hsl(0, 0%, 7%);
     margin: 5px;
 }
+.author-info{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    margin-left: 16px;
+    margin-top: -54px;
+    max-width: 129px ;
+    max-height: 32px;
+}
+h3{
+    font-weight: 800;
+    font-family: "Figtree";
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+    max-width: 129px;  
+    margin-top: 6px;
+    margin-left: 10px;
+}
 
 
-
-.attribution { font-size: 11px; text-align: center; }
+.attribution { margin-top: 10px;   font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
