@@ -20,7 +20,7 @@ body{
     box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
     border: 0.5px solid rgba(0, 0, 0, 1);
 }
-/* svg isnt treated like normal; imgs create wrap then fitr img inside */
+/* svg isnt treated like normal; imgs create wrap then fit img inside */
 .svg-container{  
     width: 352px;
     height: 200px;
